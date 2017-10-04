@@ -1,3 +1,13 @@
+
+# top row
+
+vp:
+  x: 100
+  y: 90
+  width: 200
+  height: 50
+  align: left
+
 title:
   x: 90
   y: 90
@@ -5,6 +15,12 @@ title:
   height: 50
   align: center
 
+stars:
+  x: 800
+  y: 90
+  width: 200
+  height: 50
+  align: right
 
 # The "cut line", without rounded corners
 cut:

@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'squib'
 
 data = Squib.csv file: 'armor.csv'
@@ -8,7 +9,10 @@ Squib::Deck.new(cards: data['name'].size, width: 1125, height: 825, layout: 'lay
   background color: 'white'
   rect layout: 'cut'
   rect layout: 'safe'
+
   text str: data['name'], layout: 'title'
+  text str: data['stars'], layout: 'stars'
+  text str: data['vp'].map { |s| s&.gsub(':vp:','VP') }, layout: 'vp'
 
   save_sheet prefix: 'armor', columns: 3, dir: 'output'
   save_pdf trim: 37.5, dir: 'output'
