@@ -1,4 +1,5 @@
-_output/*.png
-_output/*.pdf
+output/*.png
+output/*.pdf
 ~$*
 .DS_Store
+.~lock.*
