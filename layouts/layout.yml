@@ -22,6 +22,13 @@ stars:
   height: 50
   align: right
 
+picture:
+  x: 400
+  y: 150
+  width: :scale
+  height: 400
+  align: center
+
 action:
   x: 90
   y: 600

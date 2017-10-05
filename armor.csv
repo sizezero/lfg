@@ -1,12 +1,66 @@
-name,tier,vp,stars,action,set_vp
-foo,:bronze:,2:vp:,1,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
-bar,:silver:,3:vp:,2,:trash:: prevent 1:damage:,
-baz,:gold:,,3,:trash:: prevent 1:damage:,
-a,,,,,
-b,,,,,
-c,,,,,
-d,,,,,
-e,,,,,
-foo,,,,,
-g,,,,,
-h,,,,,
+name,deck,tier,vp,stars,suit,action,set_vp
+Artifact,1,rainbow,4:vp:,0,helmet,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,4:vp:,0,armor,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,4:vp:,0,sword,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,4:vp:,0,shield,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,4:vp:,0,shoes,:trash:: prevent 2:damage:,Set 0:vp:
+Tier 1,0,bronze,0:vp:,1,helmet,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,0,bronze,0:vp:,1,armor,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,0,bronze,0:vp:,1,sword,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,0,bronze,0:vp:,1,shield,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,0,bronze,0:vp:,1,shoes,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,1:vp:,1,helmet,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,1:vp:,1,armor,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,1:vp:,1,sword,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,1:vp:,1,shield,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,1:vp:,1,shoes,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,2:vp:,1,helmet,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,2:vp:,1,armor,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,2:vp:,1,sword,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,2:vp:,1,shield,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,1,bronze,2:vp:,1,shoes,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 2,1,silver,1:vp:,2,helmet,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,1:vp:,2,armor,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,1:vp:,2,sword,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,1:vp:,2,shield,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,1:vp:,2,shoes,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,2:vp:,2,helmet,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,2:vp:,2,armor,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,2:vp:,2,sword,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,2:vp:,2,shield,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,1,silver,2:vp:,2,shoes,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 3,1,gold,2:vp:,3,helmet,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,1,gold,2:vp:,3,armor,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,1,gold,2:vp:,3,sword,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,1,gold,2:vp:,3,shield,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,1,gold,2:vp:,3,shoes,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Artifact,1,rainbow,5:vp:,0,helmet,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,5:vp:,0,armor,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,5:vp:,0,sword,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,5:vp:,0,shield,:trash:: prevent 2:damage:,Set 0:vp:
+Artifact,1,rainbow,5:vp:,0,shoes,:trash:: prevent 2:damage:,Set 0:vp:
+Tier 1,2,bronze,2:vp:,1,helmet,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,2:vp:,1,armor,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,2:vp:,1,sword,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,2:vp:,1,shield,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,2:vp:,1,shoes,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,3:vp:,1,helmet,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,3:vp:,1,armor,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,3:vp:,1,sword,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,3:vp:,1,shield,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 1,2,bronze,3:vp:,1,shoes,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+Tier 2,2,silver,2:vp:,2,helmet,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,2:vp:,2,armor,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,2:vp:,2,sword,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,2:vp:,2,shield,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,2:vp:,2,shoes,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,3:vp:,2,helmet,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,3:vp:,2,armor,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,3:vp:,2,sword,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,3:vp:,2,shield,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 2,2,silver,3:vp:,2,shoes,:trash:: prevent 1:damage:,Set 2:arrow:2:vp:   3:arrow:5:vp:   4:arrow:9:vp:   5:arrow:13:vp:
+Tier 3,2,gold,3:vp:,3,helmet,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,2,gold,3:vp:,3,armor,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,2,gold,3:vp:,3,sword,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,2,gold,3:vp:,3,shield,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:
+Tier 3,2,gold,3:vp:,3,shoes,:trash:: prevent 1:damage:,Set 2:arrow:3:vp:   3:arrow:6:vp:   4:arrow:10:vp:   5:arrow:15:vp:

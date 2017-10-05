@@ -3,7 +3,7 @@ require 'squib'
 
 data = Squib.csv file: 'armor.csv'
 
-metal2color = { ':gold:'=>'#ffd700', ':silver:'=>'#c0c0c0', ':bronze:'=>'#b87333' }
+metal2color = { 'gold'=>'#ffd700', 'silver'=>'#c0c0c0', 'bronze'=>'#b87333' }
 metal2color.default = '#000000'
 
 def replace(stra)
@@ -26,6 +26,8 @@ Squib::Deck.new(cards: data['name'].size, width: 1125, height: 825, layout: 'lay
   text markup: true, str: coloredStars, layout: 'stars'
   text markup: true, str: replace(data['vp']), layout: 'vp'
 
+  png file: data['suit'].zip(data['tier']).map { |a| "img/#{a[0]}-#{a[1]}.png" }, layout: 'picture'
+  
   text markup: true, str: replace(data['action']), layout: 'action'
   text markup: true, str: replace(data['set_vp']), layout: 'set_vp'
   
