@@ -9,8 +9,8 @@ metal2color.default = '#000000'
 def replace(stra)
   stra.map { |s| s&.gsub(':vp:','<span foreground="#5e11a6">🎖</span>') \
                &.gsub(':damage:','<span foreground="#b80047">🌢</span>') \
-               #.gsub(':arrow:','🢂') \
-               #.gsub(':trash:','🗑')
+               &.gsub(':arrow:','🢂') \
+               &.gsub(':trash:','🗑')
   }
 end
 
@@ -26,6 +26,9 @@ Squib::Deck.new(cards: data['name'].size, width: 1125, height: 825, layout: 'lay
   text markup: true, str: coloredStars, layout: 'stars'
   text markup: true, str: replace(data['vp']), layout: 'vp'
 
+  text markup: true, str: replace(data['action']), layout: 'action'
+  text markup: true, str: replace(data['set_vp']), layout: 'set_vp'
+  
   save_sheet prefix: 'armor', columns: 3, dir: 'output'
   save_pdf trim: 37.5, dir: 'output'
 end

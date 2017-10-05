@@ -22,6 +22,20 @@ stars:
   height: 50
   align: right
 
+action:
+  x: 90
+  y: 600
+  width: 1000
+  height: 50
+  align: center
+
+set_vp:
+  x: 90
+  y: 670
+  width: 1000
+  height: 50
+  align: center
+
 # The "cut line", without rounded corners
 cut:
   x: 37.5

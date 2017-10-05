@@ -1,12 +1,12 @@
-name,tier,vp,stars
-foo,:bronze:,2:vp:,1
-bar,:silver:,3:vp:,2
-baz,:gold:,,3
-a,,,
-b,,,
-c,,,
-d,,,
-e,,,
-foo,,,
-g,,,
-h,,,
+name,tier,vp,stars,action,set_vp
+foo,:bronze:,2:vp:,1,:trash:: prevent 1:damage:,Set 2:arrow:1:vp:   3:arrow:3:vp:   4:arrow:7:vp:   5:arrow:11:vp:
+bar,:silver:,3:vp:,2,:trash:: prevent 1:damage:,
+baz,:gold:,,3,:trash:: prevent 1:damage:,
+a,,,,,
+b,,,,,
+c,,,,,
+d,,,,,
+e,,,,,
+foo,,,,,
+g,,,,,
+h,,,,,
