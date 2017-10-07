@@ -24,12 +24,15 @@ Squib::Deck.new(cards: data['name'].size, width: 1125, height: 825, layout: 'lay
   text str: data['name'], layout: 'title'
   coloredStars = data['stars'].zip(data['tier']).map { |a|
     stars, tier = a
-    stars==nil ? '' : '<span foreground="'+metal2color[tier]+'">'+('✪'*a[0])+'</span>'
+    stars==nil ? '' : '<span foreground="'+metal2color[tier]+'">'+('✪'*stars)+'</span>'
   }
   text markup: true, str: coloredStars, layout: 'stars'
   text markup: true, str: replace(data['vp']), layout: 'vp'
 
-  png file: data['suit'].zip(data['tier']).map { |a| "img/#{a[0]}-#{a[1]}.png" }, layout: 'picture'
+  png file: data['suit'].zip(data['tier']).map { |a|
+    suit, tier = a
+    "img/#{suit}-#{tier}.png"
+  }, layout: 'picture'
   
   text markup: true, str: replace(data['action']), layout: 'action'
   text markup: true, str: replace(data['set_vp']), layout: 'set_vp'
